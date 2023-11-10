@@ -183,7 +183,7 @@ while place_order:
 
                 # Tell the customer to try again
                 case _:
-                    keep_ordering=input("Please enter a valid input. (Y) or (N): ")
+                    print("Please enter a valid input. (Y) or (N): ")
 
 
 # Print out the customer's order
