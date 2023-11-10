@@ -126,7 +126,7 @@ while place_order:
                 menu_selection=int(menu_selection)
 
                 # 4. Check if the menu selection is in the menu items
-                if menu_selection>0 or menu_selection<=i:
+                if menu_selection>0 and menu_selection<i:
 
                     # Store the item name as a variable
                     item_name=menu_items[menu_selection]["Item name"]
